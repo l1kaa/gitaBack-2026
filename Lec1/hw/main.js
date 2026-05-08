@@ -4,7 +4,7 @@
 
 let fullName = "Lika Mamaladze"
 let splittedArr = fullName.split(' ')
-console.log(`${splittedArr[0][0]}.${splittedArr[1][0]} `)
+console.log(`${splittedArr[0][0]}.${splittedArr[1][0]}. `)
 
 // 2) let email = " EXAMPLE@MAIL.COM " - გაწმინდე (trim) და გადაიყვანე lowercase-ში. გადაამოწმე, შეიცავს თუ არა "@"
 
