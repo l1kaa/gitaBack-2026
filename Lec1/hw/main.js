@@ -25,14 +25,14 @@ console.log(lastSymbol)
 // თუ არა დააბრუნე - უბრალოდ რიცხვი
 
 for(let num = 1; num < 100; num++){
-    if(num % 3 === 0){
+    if(num % 3 === 0 && num % 5 === 0){
+        console.log(`${num} - FooBar`)
+    }
+    else if(num % 3 === 0){
         console.log(`${num} - Foo`)
     }
     else if(num % 5 === 0){
         console.log(`${num} - Bar`)
-    }
-    else if(num % 3 === 0 && num % 5 === 0){
-        console.log(`${num} - FooBar`)
     }
     else{
         console.log(num)
