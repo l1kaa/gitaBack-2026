@@ -63,6 +63,7 @@ const myGamingPhone = new GamingPhone("ASUS", "ROG Phone 8", 2024, 4500, 5500)
 console.log(myGamingPhone.performanceIndex());
 
 
+
 // 3)შექმენი CryptoWallet (კრიპტო საფულე) კლასი, მეთოდებით: deposit(), withdraw(), transfer(), getHistory(),
 
 class CryptoWallet {
